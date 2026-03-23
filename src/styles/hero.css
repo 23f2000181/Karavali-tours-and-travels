@@ -188,6 +188,18 @@
 }
 
 @media (max-width: 600px) {
-  .hero-title { letter-spacing: -1px; }
+  .hero-title { 
+    font-size: clamp(3rem, 15vw, 4.5rem);
+    letter-spacing: -1px; 
+    line-height: 1;
+  }
   .hero-bg { background-attachment: scroll; }
+  .hero-actions {
+    gap: 12px;
+  }
+  .hero-actions .btn-primary,
+  .hero-actions .btn-outline {
+    width: 100%;
+    justify-content: center;
+  }
 }

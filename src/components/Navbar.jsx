@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/navbar.css';
 
-const WA_LINK = 'https://wa.me/919999999999?text=Hi!%20I\'m%20interested%20in%20a%20tour%20package';
+const WA_LINK = 'https://wa.me/919019967244?text=Hi!%20I\'m%20interested%20in%20a%20tour%20package';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);

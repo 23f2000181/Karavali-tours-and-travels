@@ -66,7 +66,7 @@ const DESTINATIONS = [
   },
 ];
 
-const WA_BASE = 'https://wa.me/919999999999?text=';
+const WA_BASE = 'https://wa.me/919019967244?text=';
 
 function DestCard({ dest, delay }) {
   const ref = useRef();

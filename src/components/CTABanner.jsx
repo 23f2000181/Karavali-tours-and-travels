@@ -1,6 +1,6 @@
 import '../styles/cta.css';
 
-const WA_LINK = 'https://wa.me/919999999999?text=Hi!%20I\'d%20love%20to%20plan%20a%20tour%20with%20Karavali%20Travels';
+const WA_LINK = 'https://wa.me/919019967244?text=Hi!%20I\'d%20love%20to%20plan%20a%20tour%20with%20Karavali%20Travels';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

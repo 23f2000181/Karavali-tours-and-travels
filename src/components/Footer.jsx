@@ -1,6 +1,6 @@
 import '../styles/footer.css';
 
-const WA_LINK = 'https://wa.me/919999999999?text=Hi!%20I\'m%20interested%20in%20a%20tour%20package';
+const WA_LINK = 'https://wa.me/919019967244?text=Hi!%20I\'m%20interested%20in%20a%20tour%20package';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor">
@@ -72,7 +72,7 @@ export default function Footer() {
               <div className="contact-list">
                 <div className="contact-item">
                   <span className="icon">📞</span>
-                  <a href="tel:+919999999999">+91 99999 99999</a>
+                  <a href="tel:+919019967244">+91 90199 67244</a>
                 </div>
                 <div className="contact-item">
                   <span className="icon">📧</span>

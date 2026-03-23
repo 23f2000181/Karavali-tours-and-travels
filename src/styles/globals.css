@@ -55,7 +55,7 @@ button {
   width: 100%;
   max-width: var(--container);
   margin: 0 auto;
-  padding: 0 clamp(20px, 4vw, 60px);
+  padding: 0 clamp(16px, 4vw, 60px);
 }
 
 /* Shared button styles */
