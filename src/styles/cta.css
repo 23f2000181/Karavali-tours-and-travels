@@ -1,0 +1,102 @@
+/* ── CTA Banner ── */
+.cta-banner {
+  padding: clamp(70px, 10vw, 120px) 0;
+  background: var(--navy);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative blobs */
+.cta-banner::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, rgba(255,92,53,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cta-banner::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -60px;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(255,92,53,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cta-inner {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-eyebrow {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--coral);
+  margin-bottom: 20px;
+}
+
+.cta-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.cta-sub {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 40px;
+  line-height: 1.65;
+}
+
+/* WhatsApp button */
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--whatsapp);
+  color: var(--white);
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(37, 211, 102, 0.4);
+}
+
+.btn-whatsapp svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.cta-note {
+  margin-top: 20px;
+  font-size: 0.83rem;
+  color: rgba(255,255,255,0.35);
+  font-family: var(--font-heading);
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 480px) {
+  .btn-whatsapp { padding: 15px 28px; font-size: 0.9rem; }
+}
